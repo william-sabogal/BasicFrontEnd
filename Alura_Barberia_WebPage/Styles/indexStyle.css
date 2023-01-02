@@ -1,0 +1,176 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+body{
+    background-color: black;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+header{
+    align-items: center;
+    background-image: url(../Images/imagenes/bg.jpg);
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;   
+    position: sticky;
+    padding: 2% 0%;
+    top: 0;
+    width: 100%;
+}
+
+h1{
+    font-size: x-large;
+    font-weight: bold;
+    margin: 5px;
+    text-align: center;
+}
+
+header ul {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;    
+    justify-content: space-evenly; 
+    width: 50%
+}
+header ul li{ 
+    list-style: none;
+    list-style-type: none;
+    margin: 5px;
+}
+
+header ul li a{
+    color: white;    
+    font-size: 20px;
+    font-weight: bold;
+    text-emphasis: none;
+    text-decoration: none;
+}
+header ul li a:hover{
+    color:#c78c19;
+}
+
+h2{
+    color: white;
+    font: 1.5em sans-serif;
+    font-weight: bold;
+    margin: 20px auto;
+    padding: 5px 0px;
+}
+p{
+    border-radius: 2px;
+    padding:15px 0px;
+    margin: 30px auto;
+    width: 80%;
+}
+strong{
+    font-weight: bold;
+}
+em{
+    font-style: italic;
+}
+main{
+    background-image: linear-gradient(to top, #000000 0%, #555f5f59 100%);
+    padding-top: 60px;
+}
+#banner{
+    width: 80%;
+}
+.inicio{
+    color: white;   
+    padding: 30px;
+    margin: 0px auto;    
+}
+#contenido-inicio{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#imagen-inicio {
+    box-shadow: 3px 3px black;
+    float: left;
+    margin: 5px;
+    width: 150px;
+}
+#texto-inicio{
+    width: 80%;
+}
+.ubicacion iframe{
+    box-shadow: 3px 3px black;
+}
+.diferenciales{
+    background-image: url(../Images/diferenciales.jpg);
+    height: fit-content;
+    color: white;
+    padding: 10px 0px;
+}
+
+#lista-diferenciales{
+    font-size: 20px;
+    display: inline-flex;
+    justify-content: space-between;
+    padding-bottom: 10%;
+}
+#lista-diferenciales ul{
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin:0 auto;
+    text-align: left;
+    width: 100%;
+}
+#lista-diferenciales ul li{
+    font-weight: bold;
+    padding: 3px 0px;
+    margin: 10px 40px;
+    text-align: center;
+    width: fit-content;
+}
+iframe{
+    width: 80%;
+}
+
+footer{
+    background-image: url(../Images/imagenes/bg.jpg);
+    color: white;
+    display: block;
+    height: fit-content;
+    padding: 2% 0%;
+    text-align: center;    
+    
+}
+
+
+/*
+
+Selector > , para acceder a los hijos de determinado elemento. Por ejemplo, para acceder todos los p dentro del main
+main > p {          }
+
+Selector +, para acceder al primer hermano de determinado elemento. Por ejemplo, para acceder el primer p después de una img:
+img + p {
+}
+
+Selector ~, para acceder a todos los hermanos de determinado elemento. Por ejemplo, para acceder todos los p después de una img:
+img ~ p {
+}
+
+Selector not, para acceder a los elementos, excepto algunos. Por ejemplo, para acceder a todos los p dentro de main excepto el p que tiene id missao:
+
+main p:not(#missao) {
+}
+
+.imagen-diferenciales{
+    width: 60%;
+    transition: 400ms;
+    box-shadow: 10px 10px 30px 15px #000000;
+}
+
+.imagen-diferenciales:hover{
+    opacity: 0.3;
+}
+
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/wcVVXUV0YUY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+*/
+
+

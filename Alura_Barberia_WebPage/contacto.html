@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../ProyectoBarberia/Styles/reset.css">
+    <link rel="stylesheet" href="../ProyectoBarberia/Styles/productosStyle.css">    
+    <title>Contacto</title>
+</head>
+<body>
+    <header>
+        <img id="logo-negro-header" src="../ProyectoBarberia/Images/imagenes/logo.png" alt="logo-negro-aluraBarberia">
+        <ul>
+            <li><a href="../ProyectoBarberia/index.html">HOME</a></li>
+            <li><a href="../ProyectoBarberia/productos.html">PRODUCTOS</a></li>
+            <li><a href="">CONTACTO</a></li>
+        </ul>
+    </header>
+    <main class="main-contacto">        
+        <form action="">
+            <label id="titulo-form">INFORMACIÓN DE CONTACTO</label>
+            <fieldset class="datos-basicos">
+                <label for="nombre">Nombre de Contacto</label>
+                <input type="text" id="nombre" required placeholder="Nombre">
+                <label for="email">Email</label>
+                <input type="email" name="correo" id="email" placeholder="ejemplo@mail.com">
+                <label for="tel">Telefono</label>
+                <input type="tel" name="telefono" id="tel" required placeholder="xxx xxxxxxx">
+                <label for="mensaje">Mensaje</label>
+                <textarea name="texto" id="mensaje" cols="70" rows="10" placeholder="Mensaje de contacto"></textarea>
+            </fieldset>           
+            
+            <fieldset>
+                <label for="seleccion">¿Cómo te gustaría que te contactemos?</label>
+                <input type="radio" name="botones-seleccion-contacto" id="seleccion">WhatsApp
+                <input type="radio" name="botones-seleccion-contacto" id="seleccion">Correo
+                <input type="radio" name="botones-seleccion-contacto" id="seleccion">Llamada
+            </fieldset>
+
+            <fieldset>
+              <label for="horario">¿En qué horario le gustaría ser atendido?</label>  
+                <select name="horario-atencion" id="horario">
+                    <option value="Mañana">Mañana</option>
+                    <option value="Tarde">Tarde</option>
+                    <option value="Noche">Noche</option>
+                </select>  
+            </fieldset>            
+            <label for="check"><input type="checkbox" name="check-novedades" id="check"> ¿Le gustaría recibir novedades de la Barbería por correo electrónico?</label>            
+                      
+            <input type="submit" value="Envíar Formulario" class="boton-envio-formulario">
+        </form>
+        <table>
+            <thead>
+                <tr>
+                <td>Dia</td>
+                <th>Horario</th>                
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>Lunes a Viernes</th>
+                    <th>8:30 --- 22:30</th> 
+                </tr>
+                <tr>
+                    <th>Fin de Semana y Festivos</th>
+                    <th>11:30 --- 20:30</th> 
+                </tr>
+            </tbody>
+            
+        </table>
+    </main>
+    <footer>
+        <img id="logo-blanco-footer" src="../ProyectoBarberia/Images/imagenes/logo-blanco.png" alt="logo-blanco-aluraBarberia">
+        <p>Copyright Barbaría Alura - 2022</p>
+    </footer>
+</body>
+</html>

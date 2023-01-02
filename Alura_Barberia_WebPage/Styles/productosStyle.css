@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+body{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+header{
+    background-color: #cccccc;
+    display: inline-flex;
+    height: 10%;
+    justify-content: space-around;   
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+li{
+    margin: 30px;
+    list-style: none;
+    list-style-type: none;
+}
+a{
+    color: #000;    
+    font-size: 20px;
+    font-weight: bold;
+    text-emphasis: none;
+    text-decoration: none;
+}
+i{
+    color: white;
+}
+ul li a:hover{
+    color:#c78c19;
+}
+.tarjeta:hover{
+    border: 2px solid #c78c19;
+    font-size: 50px;
+    text-decoration: underline;
+}
+.productos{
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5%;
+}
+.tarjeta{    
+    border: 2px solid black;
+    border-radius: 10%;
+    padding: 15px;    
+}
+
+.titulo-tarjeta{
+    font-size: 30px;
+    font-weight: bold;    
+}
+.texto-servicio{
+    font-size: 15px;  
+    margin:auto;  
+    width: 80%;
+}
+.precio-servicio{
+    font-size: 18px;  
+    padding: 8% 0%;
+    margin: auto;
+}
+.main-contacto{
+    background-image: url(../Images/banner.jpg);
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px;
+}
+form, table{
+    background-color: #cccccc;    
+    border: 1px solid black;
+    border-radius: 5%;
+    margin: 20px auto;
+    padding: 10px 20px;
+    width: fit-content;
+}
+form label{
+    display: block;
+    font-weight: bold;
+    margin: 5px auto;
+}
+form input{
+    display: block;
+    height: 20px;
+    margin: 10px auto;
+}
+.datos-basicos input{
+    width: 80%;
+}
+form label#titulo-form{
+    margin-bottom: 20px;
+}
+form input#seleccion{
+    display: inline;
+    margin:5px 5px;
+}
+form input#check{
+    display: inline;
+}
+option{
+    background-color: #c78c19;
+    width: 100px;
+}
+form input.boton-envio-formulario{
+    background-color: #c78c19;
+    border:none;    
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+    height: 40px;
+    transition: all 1s;
+    width: 80%;
+}
+form input.boton-envio-formulario:hover{
+    background-color: darkorange;
+    font-size: 20px;
+    font-weight: bold;
+    transform: scaleX(1.1);
+        
+}
+thead{
+    background-color: black;
+    color: white;
+}
+th{
+    border: 1px solid black;
+    padding: 2px 5px;
+}
+tbody{
+    padding: 10px 20px;
+    width: 80%;
+}
+
+footer{
+    background-image: url(../Images/imagenes/bg.jpg);
+    color: white;
+    display: block;
+    height: fit-content;
+    padding: 2% 0%;
+    text-align: center;       
+}
