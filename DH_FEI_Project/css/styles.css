@@ -1,0 +1,550 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam:ital,wght@0,400;1,500&display=swap');
+
+:root {
+    --color-primary: #F3603B;    
+    --color-secodary: #E5E5E5;
+    --color-terciary:#1E1E26;   
+    --color-titulos: #232C50;
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Be Vietnam', sans-serif;
+    font-style: normal;
+    font-weight: 500; 
+    margin:0 auto; 
+    width: 100%;  
+}
+
+h2,h3,h4,h6{
+    color: var(--color-titulos);
+    font-weight: 700px;
+}
+/* Estilo general botones*/
+button{
+    background-color: var(--color-primary);
+    border:none;
+    border-radius: 50px;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+    color: white;
+    font-family: 'Be Vietnam', sans-serif;
+    font-size: 13.8px;
+    font-style: normal;
+    font-weight: 500; 
+    padding: 12.5px 30.5px;    
+} 
+
+button:hover{
+    color:green;
+    font-weight: 700;
+    transform: scale(1.1);
+    transition: 1s;
+}
+a:hover{
+    color:green; 
+    font-weight: 700;  
+    transition: 1s;
+}
+/* Estilo especifico botones blancos*/
+button.boton_blanco{
+    background-color: var(--color-secodary);
+}
+
+header{
+    align-items: center;
+    display: flex;    
+    height: 174px;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    padding: 0 165px;
+}
+/* Estilo lista de navegación central*/
+header nav ul{    
+    display: flex;
+    list-style-type: none;        
+}
+/* Estilo espaciado links*/
+header nav ul li{
+    margin-left: 28px;    
+}
+
+header nav ul li a{
+    color: black;
+    text-decoration: none; 
+}
+
+main{   
+    margin:0;
+    padding:0;      
+    width: 100vw;
+}
+/* Estilo primera caja*/
+main div.caja1{    
+    display: flex;
+    flex-wrap: wrap;
+    height: 525px; 
+    justify-content: space-between; 
+    margin: 5px 100px 50px 165px;   
+    align-items: center;
+}
+/* Estilo caja contenedora izquieda*/
+main div.caja1 div.caja1__izquierda{    
+    width: 439px;
+}
+/* Estilo titulo*/
+main div.caja1 div.caja1__izquierda h2{
+    font-size: 58px;    
+    line-height: 66.47px;
+}
+/* Estilo parrafo*/
+main div.caja1 div.caja1__izquierda p{    
+    margin: 28px 0;
+    width: 350px;    
+}
+
+/*/////////////////////////////////////////////*/
+
+/* Estilo caja del medio*/
+main div.caja2{      
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 50px 0;
+    padding: 84px 165px 0;    
+}
+/*Estilo caja de la izquierda*/
+main div.caja2 div.caja2__izquierda h3{
+    font-size: 36px;    
+    line-height: 41.26px;
+    margin-bottom: 36px;
+    width: 433px;
+}
+
+main div.caja2 div.caja2__izquierda p{
+    font-size: 16px;
+    width: 337px;
+}
+/*Estilo caja de la derecha*/
+main div.caja2 div.caja2__derecha{       
+    width:516px;
+}
+
+main div.caja2 div.caja2__derecha div.caja2__derecha__subcaja{
+    display: flex;      
+}
+
+main div.caja2 div.caja2__derecha div.caja2__derecha__subcaja button{
+    box-shadow: none;
+    font-weight: 700px; /*No la está aplicando?*/
+}
+
+main div.caja2 div.caja2__derecha .subcajaTexto{
+    padding-left: 23px;
+    text-align: justify;
+}
+
+main div.caja2 div.caja2__derecha div.caja2__derecha__subcaja h4{
+    font-size: 16px;    
+    margin-bottom: 18px;    
+}
+
+main div.caja2 div.caja2__derecha div.caja2__derecha__subcaja p{
+    color:#B3B2B7;
+    margin-bottom: 42px;    
+}
+
+/*////////////////////////////////////////////////////////////////////////////////////*/
+
+/*Estilo caja 3*/
+
+main div.caja3{    
+    margin-top: 90px;
+    margin-bottom: 180px;    
+    text-align: center;
+    width: 100%;
+}
+
+main div.caja3 h4{
+    font-size: 40px;
+    text-align: center;
+    width: 100%;
+}
+
+main div.caja3 section{    
+    display: flex;
+    justify-content: space-between;
+    margin-top: 74px;
+    margin-bottom: 45px;
+    padding: 0 90px;
+}
+main div.caja3 section div.caja3__caja{
+    background: #FAFAFA;    
+    display: block; 
+    position: relative;   
+    width: 390px;
+}
+main div.caja3 section div.caja3__caja img{  
+    display: block;
+    position:absolute;
+    top: -35px;
+    left: 41%;
+    width: 70px;
+}
+
+main div.caja3 section div.caja3__caja h4{  
+    font-size: 16px;
+    margin-top: 56px;
+    margin-bottom: 21px;   
+}
+
+main div.caja3 section div.caja3__caja:nth-child(2){  
+    margin: 0 30px; 
+}
+
+main div.caja3 section div.caja3__caja p{  
+    color:#B3B2B7;
+    text-align: center;   
+}
+
+main div.caja3 button{
+    margin: auto;
+}
+
+/*/////////////////////////////////////////////////////////////////////////*/
+
+/*Estilo Footer*/
+footer{
+    width: 100%;
+}
+/*Estilo Footer-top*/
+footer div.footer_top{    
+    align-items: center;
+    background-color: var(--color-primary);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 64px 165px;
+    text-align: center;
+    width: 100%;
+}
+
+footer div.footer_top h2{    
+    color: white;
+    font-size: 40px;
+    line-height: 48px;
+    margin-top: 64px;
+    margin-bottom: 64px;  
+    justify-self: flex-start;  
+    width: 440px;
+}
+
+footer div.footer_top button.boton_blanco{    
+    color: var(--color-primary);   
+    background-color: white;
+}
+
+/*Estilo Footer-bottom*/
+footer div.footer_bottom{    
+    align-items: flex-start;
+    background-color: var(--color-terciary);    
+    color:white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 53px 165px;
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+
+/*Estilo Footer-bottom caja izquierda*/
+footer div.footer_bottom div.footer_izquierda div.footerLogo{    
+    align-items: flex-end;     
+    display: flex;  
+    font-size: 16px;
+    justify-content: flex-start;  
+    margin-bottom: 66px;  
+}
+/*Estilo Footer-bottom caja izquierda imagen logo*/
+footer div.footer_bottom div.footer_izquierda div.footerLogo img{   
+    top:-5px;
+    width: 26px;
+}
+/*Estilo Footer-bottom caja izquierda iconos redes*/
+footer div.footer_bottom div.footer_izquierda div.iconosRedes{
+    display: flex;
+    justify-content: space-between;
+}
+footer div.footer_bottom div.footer_izquierda div.iconosRedes a img:hover{    
+    background-color:green;
+    border-radius: 50%;
+}
+/*Estilo Footer-bottom caja centro*/
+footer div.footer_bottom div.footer_centro{       
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-around;    
+}
+/*Estilo Footer-bottom caja centro links*/
+footer div.footer_bottom div.footer_centro a{
+    color:white; 
+    line-height: 35px;  
+    margin: 120px 0; 
+    text-decoration: none;    
+}
+footer div.footer_bottom div.footer_centro a:hover{
+    color:green;    
+}
+
+footer div.footer_bottom div.footer_centro div{        
+    text-align: left;
+}
+/*Estilo Footer-bottom caja derecha*/
+footer div.footer_bottom div.footer_derecha{    
+    display: flex;
+    height: 44px;
+    width: 273px;
+}
+footer div.footer_bottom div.footer_derecha form button.boton_blanco{    
+    color: #A0A0A0;
+    border:none;
+    height: 44px;
+    padding: 0;
+    text-align: center;
+    width: 200px;
+}
+
+footer div.footer_bottom div.footer_derecha button.boton_naranja{
+    height: 44px;    
+    margin:auto;
+    padding: 0;
+    text-align: center;
+    width: 63px;
+}
+h6{
+    position: absolute;
+    bottom:53px;
+    right: 165px;
+}
+
+
+
+@media (max-width: 411px) and (orientation:portrait) {
+    p{
+        color:#B3B2B7;
+    }
+   
+    header{
+        align-items: center;        
+        display: flex; 
+        justify-content: space-between;       
+        height: auto;              
+        margin: 30px auto;
+        padding-left: 20px;
+        padding-right: 20px;
+        width: 100%;
+    }
+    header div.logo{
+        margin: 0;
+    }
+    header nav{
+        display: none;        
+    }
+    header div.header__button{
+        content: url('../img/icon-hamburger.svg');
+    }
+
+    
+    /*/////////////////////////////////////////////////*/
+    /* Estilo primera caja*/
+    main div.caja1{        
+        height: auto; 
+        margin: 0 auto;
+        text-align: center;      
+        width: 100%;
+    }
+
+    main div.caja1 div.caja1__izquierda{        
+        padding: 40px; 
+        order: 1;              
+    }
+
+    main div.caja1 div.graficos img{         
+        width: 411px;
+    }
+    /* Estilo titulo*/
+    main div.caja1 div.caja1__izquierda h2{       
+        font-size: 30px;         
+        line-height: 35px;        
+    }
+    /* Estilo parrafo*/
+    main div.caja1 div.caja1__izquierda p{    
+        margin:  28px 0;
+        width: 329px;            
+    }
+    /*/////////////////////////////////////////////////*/
+    /* Estilo segunda caja*/
+    main div.caja2{ 
+        margin: 0;            
+        padding: 0;         
+        width: 100%;              
+    }
+    /*Estilo caja de la izquierda*/
+    main div.caja2 div.caja2__izquierda{          
+        margin: 50px 0;         
+        width: 100%;
+    }
+
+    main div.caja2 div.caja2__izquierda h3{       
+        font-size: 26px;    
+        line-height: 26px;        
+        padding: 0 100px;                        
+    }
+    
+    main div.caja2 div.caja2__izquierda p{        
+        font-size: 16px;
+        margin: 28px auto;
+        text-align: justify;
+        width: 75%;
+    }
+    /*Estilo caja de la derecha*/
+    main div.caja2 div.caja2__derecha{
+        width:516px;
+    }
+    
+    main div.caja2 div.caja2__derecha div.caja2__derecha__subcaja{
+        display: flex;    
+    }
+    
+    main div.caja2 div.caja2__derecha div.caja2__derecha__subcaja button{
+        box-shadow: none;
+        font-weight: 700px; /*No la está aplicando?*/
+    }
+    
+    main div.caja2 div.caja2__derecha .subcajaTexto{
+        padding-left: 23px;
+        text-align: justify;
+    }
+    
+    main div.caja2 div.caja2__derecha div.caja2__derecha__subcaja h4{
+        font-size: 16px;    
+        margin-bottom: 18px;    
+    }
+    
+    main div.caja2 div.caja2__derecha div.caja2__derecha__subcaja p{
+        color:#B3B2B7;
+        margin-bottom: 42px;    
+    }
+    
+    main div.caja2 div.caja2__derecha div.caja2__derecha__subcaja{
+        display: flex;
+    }
+    main div.caja2 div.caja2__derecha div.caja2__derecha__subcaja{
+       height: 200px;
+       position: relative;          
+    }
+    main div.caja2 div.caja2__derecha{           
+        width:100%;
+    }
+    main div.caja2 div.caja2__derecha .subcajaTexto{
+        padding-left: 0;
+        text-align: center;
+        width: 100%;
+    }
+    main div.caja2 div.caja2__derecha div.caja2__derecha__subcaja button{
+        position:absolute;
+    }
+    main div.caja2 div.caja2__derecha div.caja2__derecha__subcaja h4{
+        background-color: antiquewhite;         
+        height: 46px; 
+        padding-top: 10px;
+        width: 100%;
+    }
+    main div.caja2 div.caja2__derecha div.caja2__derecha__subcaja p{
+        margin-bottom: 42px;
+        left: 0px;        
+        margin-top: 0px;
+        padding: 0 20px; 
+        position: absolute;      
+        width: 100%;        
+    }
+    /*/////////////////////////////////////////////////*/
+    /* Estilo tercera caja*/
+    main div.caja3{        
+        margin-bottom: 50px;
+    }
+    main div.caja3 section{       
+        margin-top: 100px;
+        margin-bottom: 150px;
+        padding: 0;              
+    }
+
+    main div.caja3 section div.caja3__caja:nth-child(1){  
+        display: none; 
+    }   
+    main div.caja3 section div.caja3__caja:nth-child(3){  
+        display: none; 
+    }
+    /*/////////////////////////////////////////////////*/
+    /* Estilo footer top*/
+    footer div.footer_top{        
+        display: block;        
+        padding: 64px 0;
+        width: 100%;        
+    }
+    footer div.footer_top h2{
+        padding:0 50px;
+        width:100%;
+    }
+    /*Estilo Footer-bottom*/
+    footer div.footer_bottom{
+        align-items: center;    
+        display:flex;
+        flex-direction: column;
+        height: auto;
+        justify-content: space-around;
+        padding:0;              
+    }
+    footer div.footer_bottom div.footer_izquierda{        
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        height: 150px;
+        justify-content: space-between;
+        margin-top: 30px;        
+        width: 100%;
+        order:1;       
+    }
+    footer div.footer_bottom div.footer_izquierda div.footerLogo{                  
+                
+        justify-content: center;
+        padding: 0;
+        margin: 40px 0;
+        width:100%;
+    }
+    footer div.footer_bottom div.footer_izquierda div.iconosRedes img{   
+        width: 40px;
+    }
+    footer div.footer_bottom div.footer_izquierda div.iconosRedes{
+        justify-content: space-around;
+        order:-1;        
+        width: 100%;
+    }
+    footer div.footer_bottom form{
+        margin:50px 0;
+        order:-1
+    }
+    footer div.footer_bottom div.footer_centro{       
+        margin:20px 0;
+        width:100%;    
+    }
+  
+    h6{
+        display: none;
+    }
+ }
